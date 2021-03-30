@@ -1,12 +1,14 @@
 programa
-{real soma, x, soma1 = 0.0,  cache = 0.0
+{
+real soma, x, soma1 = 0.0,  cache = 0.0
 
 	
 	funcao inicio()
-	{ 
+	{
+ 
 	
-	para(inteiro i = 1; i <= 10 ;i = i + 1){
-            escreva("Informe o "+ i +"º número: ")
+	para(inteiro v = 1; v <= 10 ;v = v + 1){
+            escreva("Informe o "+ v +"º número: ")
             leia(x)
             limpa()
             se(x >= 40){
