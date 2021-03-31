@@ -24,7 +24,7 @@ real soma, x, s1 = 0.0,  cache = 0.0
         }
 
         
-        escreva(soma1)
+        escreva(s1)
 
 
 
