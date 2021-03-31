@@ -1,6 +1,6 @@
 programa
 {
-real soma, x, soma1 = 0.0,  cache = 0.0
+real soma, x, s1 = 0.0,  cache = 0.0
 
 	
 	funcao inicio()
@@ -11,16 +11,16 @@ real soma, x, soma1 = 0.0,  cache = 0.0
             escreva("Informe o "+ v +"º número: ")
             leia(x)
             limpa()
-            se(x >= 40){
+            se(x <= 40){
 
-            soma1 += x
+            s1 += x
                 
             }
                     
         }
         
-        se (soma1 == 0){
-            soma1 = 1.0
+        se (s1 == 0){
+            s1 = 1.0
         }
 
         
